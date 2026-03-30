@@ -1,0 +1,115 @@
+<div class="col-12 col-md-4 col-xl-3 card-item">
+  <div
+    style="
+      height: auto;
+      margin-top: 20px;
+      padding: 30px 40px;
+      border: 1px solid #dbdbdb;
+      border-radius: 10px;
+      font-size: 1.05rem;
+    "
+  >
+    <div
+      style="display: flex; justify-content: space-between; align-items: center"
+    >
+      <div>
+        <span>${idx}</span>
+      </div>
+      <div>
+        <span>${codeNm}</span>
+      </div>
+    </div>
+    <div style="text-align: center; margin-top: 10px">
+      <img
+        src="${imgSUrl}"
+        style="width: 70px; object-fit: contain; display: block; margin: 0 auto"
+      />
+      <div
+        style="
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          font-weight: 700;
+          font-size: 1.2rem;
+          margin-top: 10px;
+        "
+      >
+        <span>${cdNm}</span>
+      </div>
+    </div>
+    <div style="margin-top: 40px">
+      <div
+        style="
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin-top: 5px;
+        "
+      >
+        <span>집중률</span>
+        <div class="focus-g">
+          <img
+            class="focus-img"
+            src="assets/common/icon_star.png"
+            style="height: 25px; padding-bottom: 5px"
+          />
+          <span style="font-weight: 600">${prodFocus}%</span>
+        </div>
+      </div>
+      <div
+        style="
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin-top: 5px;
+        "
+      >
+        <span>로스컷비율</span>
+        <div class="losscut-g">
+          <img
+            class="losscut-img"
+            src="assets/common/icon_star.png"
+            style="height: 25px; padding-bottom: 5px"
+          />
+          <span style="font-weight: 600">${prodLosscut}%</span>
+        </div>
+      </div>
+      <div
+        style="
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin-top: 5px;
+        "
+      >
+        <span>출금비율</span>
+        <div class="atm-g">
+          <img
+            class="atm-img"
+            src="assets/common/icon_star.png"
+            style="height: 25px; padding-bottom: 5px"
+          />
+          <span style="font-weight: 600">${prodAtm}%</span>
+        </div>
+      </div>
+      <div
+        style="
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin-top: 5px;
+        "
+      >
+        <span>대출기간</span>
+        <div class="month-g">
+          <img
+            class="month-img"
+            src="assets/common/icon_star.png"
+            style="height: 25px; padding-bottom: 5px"
+          />
+          <span style="font-weight: 600">${loanMonth}개월</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

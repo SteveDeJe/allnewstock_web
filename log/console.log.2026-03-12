@@ -1,0 +1,32 @@
+[2026-03-12 16:35:12][info] : Start Upload Process !
+[2026-03-12 16:35:12][error] : Cann't Access IPs : 127.0.0.1
+[2026-03-12 16:36:31][info] : Start Upload Process !
+[2026-03-12 16:36:31][error] : Cann't Access IPs : 127.0.0.1
+[2026-03-12 16:43:37][info] : Server Start 8082 port !
+[2026-03-12 16:44:51][info] : Server Start 8082 port !
+[2026-03-12 16:45:33][info] : Start Upload Process !
+[2026-03-12 16:45:33][error] : Not enought params!
+[2026-03-12 16:46:57][info] : Start Upload Process !
+[2026-03-12 16:47:34][info] : Start Upload Process !
+[2026-03-12 16:52:41][info] : Server Start 8082 port !
+[2026-03-12 16:53:11][info] : Start Upload Process !
+[2026-03-12 16:54:39][info] : Server Start 8082 port !
+[2026-03-12 16:54:45][info] : Start Upload Process !
+[2026-03-12 16:54:45][info] : MOVE FILE : /home/histock/allnewstock_web/public/upload/test.txt
+[2026-03-12 16:54:45][info] : Finish Upload Process ! 
+[2026-03-12 17:03:00][info] : Start Upload Process !
+[2026-03-12 17:03:00][info] : BACK FILE : /home/histock/allnewstock_web/public/assets/main/backup/banner_02_web_bg.png.20260312170300
+[2026-03-12 17:03:00][info] : MOVE FILE : /home/histock/allnewstock_web/public/assets/main/banner_02_web_bg.png
+[2026-03-12 17:03:00][info] : Finish Upload Process ! 
+[2026-03-12 17:40:21][info] : Start Upload Process !
+[2026-03-12 17:40:21][info] : BACK FILE : /home/histock/allnewstock_web/public/assets/main/backup/nh-open.png.20260312174021
+[2026-03-12 17:40:21][info] : MOVE FILE : /home/histock/allnewstock_web/public/assets/main/nh-open.png
+[2026-03-12 17:40:21][info] : Finish Upload Process ! 
+[2026-03-12 17:58:18][info] : Start Upload Process !
+[2026-03-12 17:58:18][info] : BACK FILE : /home/histock/allnewstock_web/public/assets/product/backup/loan_05.svg.20260312175818
+[2026-03-12 17:58:18][info] : MOVE FILE : /home/histock/allnewstock_web/public/assets/product/loan_05.svg
+[2026-03-12 17:58:18][info] : Finish Upload Process ! 
+[2026-03-12 17:58:27][info] : Start Upload Process !
+[2026-03-12 17:58:27][info] : BACK FILE : /home/histock/allnewstock_web/public/assets/product/backup/loan_04.svg.20260312175827
+[2026-03-12 17:58:27][info] : MOVE FILE : /home/histock/allnewstock_web/public/assets/product/loan_04.svg
+[2026-03-12 17:58:27][info] : Finish Upload Process ! 

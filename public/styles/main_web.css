@@ -1,0 +1,114 @@
+@media (min-width: 1200px) {
+  .best-item-g > *:nth-child(7),
+  .best-item-g > *:nth-child(8) {
+    display: block; }
+  .m-loan-card {
+    display: none; }
+  .stock-counseling {
+    margin-top: 25px; }
+  .stock-counseling .speed-l {
+    font-size: 1rem; }
+  .stock-counseling .speed-l .naver-item {
+    text-align: right;
+    border-radius: 10px;
+    padding: 27px 30px;
+    background-position: 30px 50%;
+    background-size: 50px; }
+  .stock-counseling .speed-l .naver-item span {
+    font-size: 1.4rem; }
+  .stock-counseling .speed-l .kakao-item {
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 73px 10px 15px;
+    background-position: 50% 25%;
+    background-size: 45px; }
+  .stock-counseling .speed-l #channeltalk-button {
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 73px 10px 15px;
+    background-position: 50% 25%;
+    background-size: 45px; }
+  .stock-counseling .speed-m .speed-input {
+    padding: 20px 12px 20px 0; }
+  .stock-counseling .speed-m .speed-input h3 {
+    padding-left: 25px; }
+  .stock-counseling .speed-m .speed-input .speed-check-btn {
+    padding: 15px 5px 0 15px; }
+  .stock-counseling .speed-r .speed-r-container {
+    padding: 30px 25px;
+    background-position: 85% 80%; }
+  .stock-best .best-back .best-title {
+    margin: 30px 0 10px 20px; }
+  .stock-best .best-back .best-more-btn {
+    padding: 0 25px; }
+  .stock-best .best-back .best-more-btn button {
+    margin-top: 30px; }
+  .news-list:first-child(odd) {
+    padding-right: 30px; }
+  .news-list:nth-child(even) {
+    padding-left: 30px; }
+  .sub-top {
+    height: 380px; }
+  .sub-top .sub-title {
+    width: 45%;
+    bottom: 60px; }
+  .sub-top .right-side {
+    left: 55%; }
+  .loan-img,
+  .shorts-img,
+  .guide-img {
+    background-position: right 7% bottom 40%;
+    background-size: 450px; }
+  .online-img {
+    background-position: right 5% bottom 45%;
+    background-size: 500px; }
+  .news-img {
+    background-position: right 7% bottom 50%;
+    background-size: 450px; }
+  #about-img {
+    background-position: center top;
+    background-size: cover; }
+  .bg-grey {
+    max-height: 300px; }
+  .sub-head {
+    margin-top: 110px; }
+  .loan-search {
+    margin-top: 100px; }
+  .loan-list {
+    margin-top: 50px; }
+  .loan-list h2 {
+    display: none; }
+  .loan-list .list-box .loan-g ul {
+    display: table-row; }
+  .loan-list .list-box .loan-g ul:last-child li {
+    border-bottom: 0px; }
+  .loan-list .list-box .loan-g li {
+    display: table-cell;
+    text-align: center;
+    width: 14vw;
+    width: 14dvw;
+    padding: 25px 0;
+    border-bottom: 1px solid #e2e2e2; }
+  .loan-list .list-box .loan-g li:first-child {
+    width: 10vw;
+    width: 10dvw; }
+  .loan-list .list-box .loan-g li:nth-child(2) {
+    width: 20vw;
+    width: 20dvw; }
+  .loan-list .list-box .loan-g li:nth-child(2) img {
+    width: 50px; }
+  .loan-list .list-box .loan-g li img {
+    width: 25px;
+    padding: 0 3px 5px 0; }
+  .shorts-search {
+    margin-top: 100px; }
+  .sub-news .news-list:nth-child(2) {
+    border: 0; }
+  .days {
+    margin-top: 150px; }
+  .essential-box {
+    margin-top: 150px; }
+  .all-check {
+    margin-top: 50px; } }

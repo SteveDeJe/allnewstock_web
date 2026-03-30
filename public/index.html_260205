@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-KMMEVBZ7DN"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-KMMEVBZ7DN");
+    </script>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="node_modules/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="/styles/main.css" />
+
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="node_modules/axios/dist/axios.min.js"></script>
+    <!-- 스와이프 라이브러리 -->
+    <script src="node_modules/swiper/swiper-bundle.min.js"></script>
+    <script src="scripts/common.js"></script>
+
+    <!-- channeltalk Script 20241127 -->
+    <script>
+      (function () {
+        var w = window;
+        if (w.ChannelIO) {
+          return w.console.error("ChannelIO script included twice.");
+        }
+        var ch = function () {
+          ch.c(arguments);
+        };
+        ch.q = [];
+        ch.c = function (args) {
+          ch.q.push(args);
+        };
+        w.ChannelIO = ch;
+        function l() {
+          if (w.ChannelIOInitialized) {
+            return;
+          }
+          w.ChannelIOInitialized = true;
+          var s = document.createElement("script");
+          s.type = "text/javascript";
+          s.async = true;
+          s.src = "https://cdn.channel.io/plugin/ch-plugin-web.js";
+          var x = document.getElementsByTagName("script")[0];
+          if (x.parentNode) {
+            x.parentNode.insertBefore(s, x);
+          }
+        }
+        if (document.readyState === "complete") {
+          l();
+        } else {
+          w.addEventListener("DOMContentLoaded", l);
+          w.addEventListener("load", l);
+        }
+      })();
+
+      ChannelIO("boot", {
+        pluginKey: "5c5ba175-d0e9-492f-963b-35c00fa36bbb",
+        customLauncherSelector: "#channeltalk-button",
+        hideChannelButtonOnBoot: true,
+      });
+    </script>
+    <!-- channeltalk Script End -->
+
+    <title>ALL NEW STOCKLOAN</title>
+  </head>
+
+  <body>
+    <div class="container indx-container">
+      <div
+        include-html="views/template/header.html"
+        include-script="scripts/template/header.js"
+      ></div>
+      <!--PC 베너-->
+      <div class="row banner d-none d-xl-block">
+        <div class="swiper pc-Swiper">
+          <div class="swiper-wrapper pc-bnr-g">
+            <!-- pc-main-bnr-html 들어옴 -->
+          </div>
+          <!-- 페이지네이션 및 버튼을 래핑하는 div -->
+          <div class="pagination-wrapper">
+            <ul>
+              <li class="swiper-button-prev"></li>
+              <li class="swiper-pagination"></li>
+              <li class="swiper-button-next"></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!--PC 베너 끝-->
+
+      <!--모바일, 테블릿용 베너-->
+      <div class="row m-banner d-xl-none">
+        <!-- Swiper -->
+        <div class="row col-12 swiper m-Swiper">
+          <div class="swiper-wrapper m-bnr-g">
+            <!-- 모바일용 배너 생성자리 -->
+          </div>
+          <div class="m-swiper-pagination"></div>
+        </div>
+      </div>
+      <!--모바일, 베너 끝-->
+
+      <!--배너 밑 4개 고정 이미지 영역-->
+      <div class="row four-images">
+        <div class="col-6 col-md-3 mt-20">
+          <div class="four-item">
+            <dl>
+              <dt><span>DSR 걱정없이</span><br />대출가능!</dt>
+              <dd><img src="assets/main/S_01.jpg" /></dd>
+            </dl>
+          </div>
+        </div>
+        <div class="col-6 col-md-3 mt-20">
+          <div class="four-item">
+            <dl>
+              <dt>본인자금 포함 최대<br /><span>400% 레버리지</span></dt>
+              <dd><img src="assets/main/S_02.jpg" /></dd>
+            </dl>
+          </div>
+        </div>
+        <div class="col-6 col-md-3 mt-20">
+          <div class="four-item">
+            <dl>
+              <dt>낮은 스탁론 담보 비율<br /><span>120%</span></dt>
+              <dd><img src="assets/main/S_03.jpg" /></dd>
+            </dl>
+          </div>
+        </div>
+        <div class="col-6 col-md-3 mt-20">
+          <div class="four-item">
+            <a href="https://www.joongang.co.kr/article/25346479" target="_blank">
+              <dl>
+                <dt>2025년 대한민국<br /><span>소비자만족도 1위</span></dt>
+                <dd><img src="assets/main/S_05.png" /></dd>
+              </dl>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!--배너 밑 4개 고정 이미지 영역 끝-->
+
+      <!--상담신청-->
+      <div class="row stock-counseling">
+        <div class="col-12 col-md-3 speed-l">
+          <div class="row">
+            <div class="col-4 col-md-12">
+              <a class="tel-num" href="tel:1600-8571">
+                <div class="naver-item">
+                  전화상담<br /><span class="agency-tell-num">1600-8571</span>
+                </div>
+              </a>
+            </div>
+            <div class="col-4 col-md-6">
+              <a href="https://pf.kakao.com/_pkxgxdG" target="_blank">
+                <div class="kakao-item">카톡상담</div>
+              </a>
+            </div>
+            <div class="col-4 col-md-6">
+              <div id="channeltalk-button">채팅상담</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 speed-m">
+          <div class="speed-input">
+            <h1>Speed 상담신청</h1>
+            <div class="col-12 row speed-name-phone">
+              <div class="col-12 col-md-5">
+                <input
+                  class="speed-name online-name"
+                  type="text"
+                  placeholder="이름"
+                  maxlength="10"
+                />
+              </div>
+              <div class="col-12 col-md-7">
+                <div class="row speed-phone">
+                  <div class="col-3 num-select">
+                    <select class="first-phon">
+                      <option>010</option>
+                      <option>011</option>
+                      <option>016</option>
+                      <option>017</option>
+                      <option>018</option>
+                    </select>
+                  </div>
+                  <div class="col-9 num-input">
+                    <input class="second-phon" type="text" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 row speed-check-btn">
+              <!--div class="col-12 col-md-5 speed-check">
+                <a class="show-popup" href="#">개인정보 처리방침(보기)</a
+                ><span>동의</span>
+                <input class="main-checkbox" type="checkbox" id="main-check" />
+                <label for="main-check"></label>
+              </div-->
+              <div class="col-12 speed-btn">
+                <button class="contact-us-btn2" type="button">
+                  상담신청하기
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-3 speed-r">
+          <a href="#">
+            <div
+              class="speed-r-container"
+              onclick="setParamUrl('/views/guide.html')"
+            >
+              <div class="speed-text">
+                올뉴스탁론 Guide<br />
+                <span>쉽고 빠른 스탁론 이용안내</span>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <!--상담신청 끝-->
+
+      <!--스탁론 상품안내-->
+      <div class="stock-loan">
+        <div class="col-12 stock-loan-inner">
+          <div class="stock-loan-title">
+            스탁론 상품안내
+            <span>상품별 국내 최다 증권사 취급가능</span>
+          </div>
+          <!--pc 상품정보-->
+          <div class="loan-item-PC stock-loan-list">
+          </div>
+          <!--pc 상품정보 End-->
+
+          <!--모바일 상품정보-->
+          <div class="loan-item-MOBILE stock-loan-list">
+            <!--loan-01-->
+            <div class="col-12 loan-card">
+              <div class="card-inner card-inner-flip-up">
+                <div class="card-front">
+                  <div class="card_top-border"></div>
+                  <div class="card_info">
+                    <div class="info-top">
+                      <span class="number">1<img src="assets/loan/icon_rank-up.svg" class="state" /></span>
+                      <img src="assets/loan/loan_01.svg" class="illust" />
+                      <div class="ex-mark">
+                        <img src="assets/loan/icon_exclamation-mark.svg" />
+                      </div>
+                      <p class="bubble">6월 베스트 상품이에요!</p>
+                    </div>
+                    <div class="info-bottom">
+                      <ul class="loan-info">
+                        <li class="sub-title">인기상품 1위! 4.9% 업계 최저금리 혜택 상품</li>
+                        <li class="main-title">NH손해보험 나눔스탁론(최장 10년)</li>
+                        <li class="sub-copy">1,000만원 대출 시, 월이자 40,800원!</li>
+                      </ul>
+                      <img src="assets/loan/icon_arrow-down.svg" class="loan-arrow" />
+                    </div>
+                  </div>
+                </div>
+                <div class="card-back">
+                  <div class="card_info">
+                    <div class="info-top">
+                      <span class="number">1<img src="assets/loan/icon_rank-up.svg" class="state" /></span>
+                      <img src="assets/loan/icon_arrow-up.svg" class="loan-arrow" />
+                    </div>
+                    <div class="info-bottom">
+                      <div class="loan-detail">
+                        <ul>
+                          <li class="bank">여신사 : NH손해보험</li>
+                          <li class="bank-rate">연금리 : 4.9%</li>
+                          <li class="loss-cut">로스컷 : 120%~125%</li>
+                          <li class="portfolio">집중률: 50%~100% 선택 가능</li>
+                          <li class="loan-term">대출기간 : 최장 10년</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--loan-02-->
+            <div class="col-12 loan-card">
+              <div class="card-inner card-inner-flip-up">
+                <div class="card-front">
+                  <div class="card_top-border"></div>
+                  <div class="card_info">
+                    <div class="info-top">
+                      <span class="number">2<img src="assets/loan/icon_rank-down.svg" class="state" /></span>
+                      <img src="assets/loan/loan_02.svg" class="illust" />
+                      <div class="ex-mark">
+                        <img src="assets/loan/icon_exclamation-mark.svg" />
+                      </div>
+                      <p class="bubble">DSR 미적용 혜택 상품이에요!</p>
+                    </div>
+                    <div class="info-bottom">
+                      <ul class="loan-info">
+                        <li class="sub-title">DSR 미적용 혜택</li>
+                        <li class="main-title">하이펀딩 스탁론(금리 이벤트)</li>
+                        <li class="sub-copy">업계최초! 누적 5,000억 취급 인기급등 상품!</li>
+                      </ul>
+                      <img src="assets/loan/icon_arrow-down.svg" class="loan-arrow" />
+                    </div>
+                  </div>
+                </div>
+                <div class="card-back">
+                  <div class="card_info">
+                    <div class="info-top">
+                      <div class="number">2<span class="state"><img src="assets/loan/icon_rank-down.svg" /></span></div>
+                      <img src="assets/loan/icon_arrow-up.svg" class="loan-arrow" />
+                    </div>
+                    <div class="info-bottom">
+                      <div class="loan-detail">
+                        <ul>
+                          <li class="bank">여신사 : 하이펀딩</li>
+                          <li class="bank-rate">연금리 : 선착순 금리이벤트 진행중!</li>
+                          <li class="loss-cut">로스컷 : 120%~ 부터</li>
+                          <li class="portfolio">집중률: 선택 가능</li>
+                          <li class="loan-term">대출기간 : 3개월~12개월</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--loan-03-->
+            <div class="col-12 loan-card">
+              <div class="card-inner card-inner-flip-up">
+                <div class="card-front">
+                  <div class="card_top-border"></div>
+                  <div class="card_info">
+                    <div class="info-top">
+                      <span class="number">3<img src="assets/loan/icon_no-change.svg" class="state" /></span>
+                      <img src="assets/loan/loan_03.svg" class="illust" />
+                      <div class="ex-mark"></div>
+                    </div>
+                    <div class="info-bottom">
+                      <ul class="loan-info">
+                        <li class="sub-title">대환전용 상품</li>
+                        <li class="main-title">증권사 신용·미수·스탁론 갈아타기!</li>
+                        <li class="sub-copy">쉽고 빠르게 신청 당일 즉시실행!</li>
+                      </ul>
+                      <img src="assets/loan/icon_arrow-down.svg" class="loan-arrow" />
+                    </div>
+                  </div>
+                </div>
+                <div class="card-back">
+                  <div class="card_info">
+                    <div class="info-top">
+                      <span class="number">3<img src="assets/loan/icon_no-change.svg" class="state" /></span>
+                      <img src="assets/loan/icon_arrow-up.svg" class="loan-arrow" />
+                    </div>
+                    <div class="info-bottom">
+                      <div class="loan-detail">
+                        <ul>
+                          <li class="bank-rate">연금리 : 4.9%~ 부터</li>
+                          <li class="loss-cut">로스컷 : 120%~125%</li>
+                          <li class="portfolio">집중률: 50%~100% 선택 가능</li>
+                          <li class="loan-term">대출기간 : 최장 10년</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--loan-04-->
+            <div class="col-12 loan-card">
+              <div class="card-inner card-inner-flip-up">
+                <div class="card-front">
+                  <div class="card_top-border"></div>
+                  <div class="card_info">
+                    <div class="info-top">
+                      <span class="number">4<img src="assets/loan/icon_no-change.svg" class="state" /></span>
+                      <img src="assets/loan/loan_04.svg" class="illust" />
+                      <div class="ex-mark"></div>
+                    </div>
+                    <div class="info-bottom">
+                      <ul class="loan-info">
+                        <li class="sub-title">넉넉한 한도 발생</li>
+                        <li class="main-title">키움캐피탈 키워드림론</li>
+                        <li class="sub-copy">키움증권 이용가능 상품</li>
+                      </ul>
+                      <img src="assets/loan/icon_arrow-down.svg" class="loan-arrow" />
+                    </div>
+                  </div>
+                </div>
+                <div class="card-back">
+                  <div class="card_info">
+                    <div class="info-top">
+                      <span class="number">4<img src="assets/loan/icon_no-change.svg" class="state" /></span>
+                      <img src="assets/loan/icon_arrow-up.svg" class="loan-arrow" />
+                    </div>
+                    <div class="info-bottom">
+                      <div class="loan-detail">
+                        <ul>
+                          <li class="bank-rate">연금리 : 5.3%</li>
+                          <li class="loss-cut">로스컷 : 125%</li>
+                          <li class="portfolio">집중률: 100%</li>
+                          <li class="loan-term">대출기간 : 최장 5년까지</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--loan-05-->
+            <div class="col-12 loan-card">
+              <div class="card-inner card-inner-flip-up">
+                <div class="card-front">
+                  <div class="card_top-border"></div>
+                  <div class="card_info">
+                    <div class="info-top">
+                      <span class="number">5<img src="assets/loan/icon_no-change.svg" class="state" /></span>
+                      <img src="assets/loan/loan_05.svg" class="illust" />
+                      <div class="ex-mark"></div>
+                    </div>
+                    <div class="info-bottom">
+                      <ul class="loan-info">
+                        <li class="sub-title">최저유지비율 120%</li>
+                        <li class="main-title">집중투자, 대환 모두 가능</li>
+                        <li class="sub-copy">증권사 대비 최소 20% 이상 DOWN ↓</li>
+                      </ul>
+                      <img src="assets/loan/icon_arrow-down.svg" class="loan-arrow" />
+                    </div>
+                  </div>
+                </div>
+                <div class="card-back">
+                  <div class="card_info">
+                    <div class="info-top">
+                      <span class="number">5<img src="assets/loan/icon_no-change.svg" class="state" /></span>
+                      <img src="assets/loan/icon_arrow-up.svg" class="loan-arrow"/>
+                    </div>
+                    <div class="info-bottom">
+                      <div class="loan-detail">
+                        <ul>
+                          <li class="bank-rate">연금리 : 5.3%</li>
+                          <li class="loss-cut">로스컷 : 120%</li>
+                          <li class="portfolio">집중률: 100%</li>
+                          <li class="loan-term">대출기간 : 최장 5년까지</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <!--모바일 상품정보 E-->
+
+        </div>
+      </div>
+      <!--스탁론 상품안내 끝-->
+
+      <!--올뉴스탁론 Shorts-->
+      <div class="row stock-shorts">
+        <div class="col-12 shorts-title">
+          <div>올뉴스탁론</div>
+          <div><img src="assets/common/shorts_logo.svg" /></div>
+          <div>Shorts</div>
+          <div class="more">
+            <a href="#" onclick="setParamUrl('/views/shorts.html')"
+              >더 보기 ></a
+            >
+          </div>
+        </div>
+
+        <div class="swiper tube-swiper">
+          <div class="swiper-wrapper shorts-swiper"></div>
+        </div>
+      </div>
+      <!--올뉴스탁론 Shorts 끝-->
+
+      <!--스탁론 News-->
+      <div class="row stock-news">
+        <div class="col-12 news-title">스탁론 News</div>
+        <div class="row news-item-g">
+          <div class="col-12 news-con">
+            <!-- component include -->
+            <!-- <input type="button" value="Load News" onclick="fnGetNews()" /> -->
+            <div id="newsContainer" class="row col-12"></div>
+          </div>
+        </div>
+        <button
+          class="news-more-btn"
+          type="button"
+          onclick="setParamUrl('/views/news.html')"
+        >
+          더 보기
+        </button>
+      </div>
+      <!-- 푸터 -->
+      <div
+        include-html="/views/template/footer.html"
+        include-script="/scripts/template/footer.js"
+      ></div>
+      <!--스탁론 News 끝-->
+    </div>
+    <!--메인 컨테이너 끝-->
+    <button
+      class="scrollToTopBtn round-90 up-btn"
+      onclick="scrollToTop()"
+      title="맨 위로"
+    ></button>
+
+    <!--약관 Modal 부분 -->
+    <div
+      class="modal fade"
+      id="rulesModal"
+      tabindex="-1"
+      aria-labelledby="rulesModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <!-- <div class="modal-header">
+        모달 헤더부분
+        <h5 class="modal-title" id="rulesModalLabel">Modal title</h5>
+        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div> -->
+          <div class="modal-body">
+            <h1 class="modal-title" id="rulesModalLabel">상담신청 동의안내</h1>
+            <button
+              type="button"
+              class="close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <!-- 전체동의 -->
+            <div class="row">
+              <div class="col-12 check-all">
+                <input id="main-check1" type="checkbox" value="1" /><label
+                  for="main-check1"
+                  ><span>전체 동의하기</span></label
+                >
+                <p>
+                  ※ 개인정보 수집 및 이용, 마케팅 이용(선택), 개인정보 공유 및
+                  제 3자 제공(선택)동의를 포함합니다.
+                </p>
+              </div>
+            </div>
+
+            <!-- 필수 수집동의 -->
+            <div class="row m-0">
+              <div class="col-12">
+                <div class="slideButton rules1">
+                  <div class="online-titl-g1">
+                    <!-- 약관 타이틀 조회후 생성-->
+                  </div>
+                  <div class="online-sub-titl-g1">
+                    <!-- 약관 서브타이틀 조회후 생성-->
+                  </div>
+                  <div class="arrowrap">
+                    <span class="arrow-left"
+                      ><img src="/assets/common/icon_left_arrow_yellow.svg"
+                    /></span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 check-option">
+                <span>
+                  <input id="main-check2" type="checkbox" value="2" />
+                  <label for="main-check2">
+                    <span class="online-marker-titl-g1">
+                      <!-- 약관 마커타이틀 조회후 생성-->
+                    </span>
+                  </label>
+                </span>
+              </div>
+            </div>
+
+            <!-- 마케팅 수집동의 -->
+            <div class="row m-0">
+              <div class="col-12">
+                <div class="slideButton rules2">
+                  <div class="online-titl-g2">
+                    <!-- 약관 타이틀 조회후 생성-->
+                  </div>
+                  <div class="online-sub-titl-g2">
+                    <!-- 약관 서브타이틀 조회후 생성-->
+                  </div>
+                  <div class="arrowrap">
+                    <span class="arrow-left"
+                      ><img src="/assets/common/icon_left_arrow_yellow.svg"
+                    /></span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 check-option">
+                <input id="main-check3" type="checkbox" value="3" />
+                <label for="main-check3">
+                  <span class="online-marker-titl-g2">
+                    <!-- 약관 마커타이틀 조회후 생성-->
+                  </span>
+                </label>
+              </div>
+            </div>
+
+            <!-- 개인정보 공유 -->
+            <div class="row m-0">
+              <div class="col-12">
+                <div class="slideButton rules3">
+                  <div class="online-titl-g3">
+                    <!-- 약관 타이틀 조회후 생성-->
+                  </div>
+                  <div class="online-sub-titl-g3">
+                    <!-- 약관 서브타이틀 조회후 생성-->
+                  </div>
+                  <div class="arrowrap">
+                    <span class="arrow-left"
+                      ><img src="/assets/common/icon_left_arrow_yellow.svg"
+                    /></span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 check-option">
+                <input id="main-check4" type="checkbox" value="4" />
+                <label for="main-check4">
+                  <span class="online-marker-titl-g3">
+                    <!-- 약관 마커타이틀 조회후 생성-->
+                  </span>
+                </label>
+              </div>
+            </div>
+
+            <div class="row">
+              <!-- 상담신청 버튼 -->
+              <div class="pop-req-btn">
+                <input
+                  name="btn-more-then"
+                  type="button"
+                  value="상담신청하기"
+                />
+              </div>
+            </div>
+
+            <!-- 숨겨진 약관 div -->
+            <div id="slideInDiv" class="slide-in-div">
+              <div class="online-titl">
+                <!-- 약관타이틀 조회후 생성-->
+              </div>
+              <div>
+                <button
+                  class="btn-close closeSlideButton"
+                  value="X버튼"
+                ></button>
+              </div>
+              <div class="online-conts">
+                <!-- 약관내용 조회후 생성-->
+              </div>
+              <div class="slideInDiv-close">
+                <!-- 확인 버튼 -->
+                <input class="closeSlideButton" type="button" value="확인" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 공용 알럿 -->
+    <div id="overlay" class="overlay"></div>
+    <div id="customAlert" class="custom-alert">
+      <div class="title" id="alertTitle">타이틀</div>
+      <div class="message" id="alertMessage">내용</div>
+      <button class="completion-btn" onclick="completionAlert()">확인</button>
+      <!-- <button class="close-btn" onclick="closeAlert()">취소</button> -->
+    </div>
+
+    <script src="scripts/loan-card.js"></script>
+
+  </body>
+
+  <script src="scripts/index.js"></script>
+
+  <!-- AceCounter Log Gathering Script V.8.0.AMZ2019080601 -->
+  <script language="javascript">
+    var _AceGID = (function () {
+      var Inf = [
+        "gtc14.acecounter.com",
+        "8080",
+        "BS3A47042597953",
+        "AW",
+        "0",
+        "NaPm,Ncisy",
+        "ALL",
+        "0",
+      ];
+      var _CI = !_AceGID ? [] : _AceGID.val;
+      var _N = 0;
+      var _T = new Image(0, 0);
+      if (_CI.join(".").indexOf(Inf[3]) < 0) {
+        _T.src = "https://" + Inf[0] + "/?cookie";
+        _CI.push(Inf);
+        _N = _CI.length;
+      }
+      return { o: _N, val: _CI };
+    })();
+    var _AceCounter = (function () {
+      var G = _AceGID;
+      var _sc = document.createElement("script");
+      var _sm = document.getElementsByTagName("script")[0];
+      if (G.o != 0) {
+        var _A = G.val[G.o - 1];
+        var _G = _A[0].substr(0, _A[0].indexOf("."));
+        var _C = _A[7] != "0" ? _A[2] : _A[3];
+        var _U = _A[5].replace(/\,/g, "_");
+        _sc.src =
+          "https:" +
+          "//cr.acecounter.com/Web/AceCounter_" +
+          _C +
+          ".js?gc=" +
+          _A[2] +
+          "&py=" +
+          _A[4] +
+          "&gd=" +
+          _G +
+          "&gp=" +
+          _A[1] +
+          "&up=" +
+          _U +
+          "&rd=" +
+          new Date().getTime();
+        _sm.parentNode.insertBefore(_sc, _sm);
+        return _sc.src;
+      }
+    })();
+  </script>
+  <!-- AceCounter Log Gathering Script End -->
+</html>

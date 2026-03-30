@@ -1,0 +1,286 @@
+@media (max-width: 767px) {
+  .best-item-g {
+    display: none; }
+  .m-best-Swiper {
+    display: block; }
+  .pc-t-loan-card {
+    display: none; }
+  .stock-loan .stock-loan-inner .stock-loan-title span {
+    display: block;
+    font-size: 1rem;
+    font-weight: 400; }
+  .stock-loan .stock-loan-inner .stock-loan-list .loan-card {
+    font-size: 2rem;
+    font-weight: 300; }
+  .stock-loan .stock-loan-inner .stock-loan-list .loan-card .card-inner {
+    height: auto; }
+  .stock-loan .stock-loan-inner .stock-loan-list .loan-card .card-inner-flip-up {
+    --flip-card-height: 250px;
+    height: var(--flip-card-height);
+    color: transparent;
+    border: none;
+    border-radius: 0;
+    perspective: 4250px;
+    transition: 0.3s; }
+  .stock-loan .stock-loan-inner .stock-loan-list .loan-card .card-inner-flip-up.flipped .card-front {
+    transform: rotateX(90deg);
+    z-index: 0; }
+  .stock-loan .stock-loan-inner .stock-loan-list .loan-card .card-inner-flip-up.flipped .card-back {
+    transform: rotateX(0deg);
+    z-index: 100; }
+  .stock-loan .stock-loan-inner .stock-loan-list .loan-card .card-inner-flip-up .card-front,
+  .stock-loan .stock-loan-inner .stock-loan-list .loan-card .card-inner-flip-up .card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%; }
+  .stock-loan .stock-loan-inner .stock-loan-list .loan-card .card-inner-flip-up .card-front {
+    color: #212529;
+    background: #ffffff;
+    transition: 0.3s;
+    transform-origin: center center calc(var(--flip-card-height) / -2);
+    z-index: 100; }
+  .stock-loan .stock-loan-inner .stock-loan-list .loan-card .card-inner-flip-up .card-front .card_top-border {
+    margin: 0 25px;
+    height: 1px;
+    background: #dbdbdb; }
+  .stock-loan .stock-loan-inner .stock-loan-list .loan-card .card-inner-flip-up .card-front .card_info {
+    height: 100%;
+    padding: 25px 25px;
+    display: block; }
+  .stock-loan .stock-loan-inner .stock-loan-list .loan-card .card-inner-flip-up .card-front .card_info .info-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative; }
+  .stock-loan .stock-loan-inner .stock-loan-list .loan-card .card-inner-flip-up .card-front .card_info .info-top .number {
+    display: flex;
+    align-items: center;
+    margin-top: -10px; }
+  .stock-loan .stock-loan-inner .stock-loan-list .loan-card .card-inner-flip-up .card-front .card_info .info-top .state {
+    width: 12px;
+    margin: 0 0 0 12px; }
+  .stock-loan .stock-loan-inner .stock-loan-list .loan-card .card-inner-flip-up .card-front .card_info .info-top .illust {
+    width: 100px;
+    margin-right: 20px; }
+  .stock-loan .stock-loan-inner .stock-loan-list .loan-card .card-inner-flip-up .card-front .card_info .info-top .ex-mark {
+    width: 28px;
+    display: inline-block;
+    position: relative;
+    margin-top: -11px;
+    z-index: 200; }
+  .stock-loan .stock-loan-inner .stock-loan-list .loan-card .card-inner-flip-up .card-front .card_info .info-top .bubble {
+    position: absolute;
+    top: 41px;
+    right: 0;
+    max-width: 120px;
+    padding: 8px 10px;
+    background: #7600ff;
+    color: #fff;
+    font-size: 14px;
+    text-align: right;
+    border-radius: 8px;
+    z-index: 300;
+    word-break: break-all;
+    white-space: normal; }
+  .stock-loan .stock-loan-inner .stock-loan-list .loan-card .card-inner-flip-up .card-front .card_info .info-top .bubble::after {
+    content: "";
+    position: absolute;
+    top: -11px;
+    right: 7px;
+    border-width: 0 7px 14px;
+    border-style: solid;
+    border-color: #7600ff transparent; }
+  .stock-loan .stock-loan-inner .stock-loan-list .loan-card .card-inner-flip-up .card-front .card_info .info-bottom .loan-info {
+    position: absolute;
+    left: 25px;
+    bottom: 25px; }
+  .stock-loan .stock-loan-inner .stock-loan-list .loan-card .card-inner-flip-up .card-front .card_info .info-bottom .loan-info li {
+    display: block; }
+  .stock-loan .stock-loan-inner .stock-loan-list .loan-card .card-inner-flip-up .card-front .card_info .info-bottom .loan-info .sub-title {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.1rem;
+    color: #7600ff; }
+  .stock-loan .stock-loan-inner .stock-loan-list .loan-card .card-inner-flip-up .card-front .card_info .info-bottom .loan-info .main-title {
+    font-size: 1.4rem;
+    font-weight: 800;
+    line-height: 1.5rem;
+    padding: 10px 0;
+    letter-spacing: -2px; }
+  .stock-loan .stock-loan-inner .stock-loan-list .loan-card .card-inner-flip-up .card-front .card_info .info-bottom .loan-info .sub-copy {
+    color: #999999;
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 0.9rem;
+    letter-spacing: normal; }
+  .stock-loan .stock-loan-inner .stock-loan-list .loan-card .card-inner-flip-up .card-front .card_info .info-bottom .loan-arrow {
+    width: 23px;
+    position: absolute;
+    bottom: 25px;
+    right: 25px; }
+  .stock-loan .stock-loan-inner .stock-loan-list .loan-card .card-inner-flip-up .card-back {
+    color: #ffffff;
+    background: #7600ff;
+    transform: rotateX(-88deg);
+    transform-origin: center center calc(var(--flip-card-height) / -2);
+    transition: 0.3s;
+    pointer-events: auto; }
+  .stock-loan .stock-loan-inner .stock-loan-list .loan-card .card-inner-flip-up .card-back .card_info {
+    height: 100%;
+    padding: 25px 25px;
+    display: block; }
+  .stock-loan .stock-loan-inner .stock-loan-list .loan-card .card-inner-flip-up .card-back .card_info .info-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start; }
+  .stock-loan .stock-loan-inner .stock-loan-list .loan-card .card-inner-flip-up .card-back .card_info .info-top .number {
+    display: flex;
+    align-items: center;
+    margin-top: -10px; }
+  .stock-loan .stock-loan-inner .stock-loan-list .loan-card .card-inner-flip-up .card-back .card_info .info-top .state {
+    width: 12px;
+    margin: 0 0 0 12px; }
+  .stock-loan .stock-loan-inner .stock-loan-list .loan-card .card-inner-flip-up .card-back .card_info .info-top .loan-arrow {
+    width: 23px;
+    display: flex;
+    align-items: end; }
+  .stock-loan .stock-loan-inner .stock-loan-list .loan-card .card-inner-flip-up .card-back .card_info .info-bottom {
+    position: absolute;
+    left: 25px;
+    bottom: 25px; }
+  .stock-loan .stock-loan-inner .stock-loan-list .loan-card .card-inner-flip-up .card-back .card_info .info-bottom .loan-detail {
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 1.9rem; }
+  .stock-loan .stock-loan-inner .stock-loan-list .loan-card .card-inner-flip-up .card-back .card_info .info-bottom .loan-detail li {
+    display: block; }
+  .stock-counseling .speed-l {
+    text-align: center;
+    font-size: 0.9rem; }
+  .stock-counseling .speed-l .naver-item {
+    height: 80px;
+    border-radius: 10px;
+    padding: 48px 0 15px;
+    background-position: 50% 15px;
+    background-size: 35px; }
+  .stock-counseling .speed-l span {
+    display: none; }
+  .stock-counseling .speed-l .kakao-item {
+    height: 80px;
+    border-radius: 10px;
+    padding: 48px 0 15px;
+    background-position: 50% 15px;
+    background-size: 32px; }
+  .stock-counseling .speed-l #channeltalk-button {
+    height: 80px;
+    border-radius: 10px;
+    padding: 48px 0 15px;
+    background-position: 50% 15px;
+    background-size: 32px; }
+  .stock-counseling .speed-m {
+    margin-top: 25px; }
+  .stock-counseling .speed-m .speed-input {
+    padding: 20px 0; }
+  .stock-counseling .speed-m .speed-input h3 {
+    padding-left: 15px; }
+  .stock-counseling .speed-m .speed-input .speed-name-phone input.speed-name {
+    margin-left: -13px; }
+  .stock-counseling .speed-m .speed-input .speed-name-phone .speed-phone {
+    margin-top: 10px; }
+  .stock-counseling .speed-m .speed-input .speed-check-btn {
+    padding: 7px 5px 0 0; }
+  .stock-counseling .speed-m .speed-input .speed-check-btn .speed-btn {
+    margin: 20px 0; }
+  .stock-counseling .speed-r {
+    margin-top: 25px; }
+  .stock-counseling .speed-r .speed-r-container {
+    padding: 20px 30px;
+    background-position: 90% 50%; }
+  .modal-body {
+    height: 99vh;
+    height: 99dvh; }
+  .sub-top {
+    height: 500px; }
+  .sub-top .sub-title {
+    bottom: 50px; }
+  .sub-path {
+    display: none; }
+  .loan-img {
+    background-position: center top 10%;
+    background-size: 90%; }
+  .shorts-img {
+    background-position: center top 20%;
+    background-size: 90%; }
+  .online-img {
+    background-position: center top 5%;
+    background-size: 100%; }
+  .guide-img {
+    background-position: center top 15%;
+    background-size: 90%; }
+  .news-img {
+    background-position: center top 15%;
+    background-size: 90%; }
+  #about-img {
+    background-position: 37% top;
+    background-size: cover; }
+  #about-img .gradient {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 40%, white 65%); }
+  .bg-grey {
+    max-height: 250px; }
+  .sub-head {
+    margin-top: 30px; }
+  .sub-head span {
+    padding-bottom: 10px; }
+  .loan-search {
+    margin-top: 10px; }
+  .loan-list {
+    margin-top: 30px; }
+  .loan-list h1 {
+    display: none; }
+  .loan-list .list-box {
+    padding: 30px 30px 5px; }
+  .loan-list .list-box .loan-g .box-left {
+    width: 50%;
+    padding-right: 15px; }
+  .loan-list .list-box .loan-g .box-left ul {
+    display: table-row; }
+  .loan-list .list-box .loan-g .box-left li {
+    width: 25%;
+    display: table-cell; }
+  .loan-list .list-box .loan-g .box-left .logo {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 1.2rem; }
+  .loan-list .list-box .loan-g .box-left .logo img {
+    width: 70px;
+    padding: 16px 0 10px; }
+  .loan-list .list-box .loan-g .box-right {
+    width: 50%;
+    margin-top: 25px;
+    padding-left: 15px; }
+  .loan-list .list-box .loan-g .box-right ul {
+    display: table-row; }
+  .loan-list .list-box .loan-g .box-right li {
+    width: 25%;
+    display: table-cell;
+    line-height: 1.7rem; }
+  .loan-list .list-box .loan-g .box-right li img {
+    width: 25px;
+    padding: 0 5px 5px 0; }
+  .border-t2 {
+    padding: 30px 0;
+    border-bottom: 1px solid #e2e2e2;
+    margin: 0 auto; }
+  .prod-item-info {
+    display: none; }
+  .shorts-search {
+    margin-top: 10px; } }
+
+@supports (-webkit-touch-callout: none) {
+  .anw .agree-box {
+    background-color: #e2e2e2; } }

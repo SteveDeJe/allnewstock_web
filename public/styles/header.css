@@ -1,0 +1,119 @@
+@charset "UTF-8";
+@media (max-width: 1199px) {
+  .header-navbar {
+    margin-top: -20px; }
+  .header-navbar li a {
+    padding: 15px; }
+  .submenu {
+    width: 100%;
+    margin-bottom: 30px; } }
+
+@media (min-width: 1200px) {
+  .submenu {
+    width: 190px;
+    padding: -5px 0 0 -15px;
+    box-shadow: 0 4px 4px 0px rgba(0, 0, 0, 0.4);
+    /* 그림자를 추가*/ } }
+
+.submenu {
+  display: none;
+  position: absolute;
+  z-index: 100;
+  right: 0;
+  /* 부모 요소의 왼쪽에 맞추기 */
+  font-weight: 400;
+  background-color: #fff;
+  border-top: 2px solid #fe5c41;
+  border-bottom: 1px solid #ddd; }
+
+.submenu li {
+  display: inline-block;
+  width: 100%;
+  margin: 0 0 2px -15px; }
+
+.submenu li a {
+  display: block;
+  width: 100%;
+  padding: 15px 30px;
+  font-size: 1.05rem;
+  font-weight: 400;
+  text-decoration: none;
+  /* 밑줄을 제거*/
+  color: #999999;
+  /* 링크 색상을 지정 */ }
+
+.submenu li a:hover {
+  background-color: #f0f0f0; }
+
+.header-nav {
+  margin-bottom: 20px;
+  background-color: #f2f3f8; }
+
+.header-nav .m-navbar {
+  font-size: 1.1rem;
+  height: 45px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border-radius: 30px;
+  margin-top: 40px;
+  background-color: #e2e2e2; }
+
+.header-nav .m-navbar .m-nav-btn {
+  padding: 9px 0;
+  border-radius: 30px;
+  text-decoration: none;
+  color: #818181;
+  font-weight: 600;
+  width: 50%;
+  text-align: center; }
+
+.header-nav .m-navbar .m-nav-btn:hover, .header-nav .m-navbar .m-nav-btn:focus, .header-nav .m-navbar .m-nav-btn:active {
+  color: #fff;
+  background-color: #fe5c41; }
+
+.header-nav .header-container .t-navbar {
+  font-size: 1.1rem;
+  width: 350px;
+  display: flex;
+  align-items: center;
+  border-radius: 30px;
+  background-color: #e2e2e2; }
+
+.header-nav .header-container .t-navbar .t-nav-btn {
+  background-color: #e2e2e2;
+  border-radius: 30px;
+  padding: 9px 0;
+  text-decoration: none;
+  color: #818181;
+  font-weight: 600;
+  width: 50%;
+  text-align: center; }
+
+.header-nav .header-container .t-navbar .t-nav-btn:hover, .header-nav .header-container .t-navbar .t-nav-btn:focus, .header-nav .header-container .t-navbar .t-nav-btn:active {
+  color: #fff;
+  background-color: #fe5c41; }
+
+.header-nav .header-container .header-offcanvvas {
+  background-color: #f2f3f8; }
+
+.header-nav .header-container .header-offcanvvas .btn-close {
+  padding: 30px 33px 20px; }
+
+.header-nav .header-container .header-offcanvvas .header-offcanvvas-body .header-navbar li {
+  color: rgba(0, 0, 0, 0.8);
+  padding: 3px 15px 0;
+  font-size: 1.1rem;
+  font-weight: 700; }
+
+.header-nav .header-container .header-offcanvvas .header-offcanvvas-body .header-navbar li a:hover {
+  color: #fe5c41; }
+
+.header-nav .header-container .header-offcanvvas .header-offcanvvas-body .header-navbar li:last-child a:focus {
+  color: #fe5c41; }
+
+.header-nav .header-container .header-offcanvvas .header-offcanvvas-body .header-navbar .nav-link {
+  color: rgba(0, 0, 0, 0.8); }
+
+.header-nav .header-container .navbar-toggler {
+  border: 0px; }

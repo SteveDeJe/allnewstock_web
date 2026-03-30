@@ -1,0 +1,138 @@
+@media (max-width: 1199px) {
+  .header-navbar {
+    margin-top: -20px;
+    li {
+      a {
+        padding: 15px;
+      }
+    }
+  }
+  .submenu {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .submenu {
+    width: 190px;
+    padding: -5px 0 0 -15px;
+    box-shadow: 0 4px 4px 0px rgba(0, 0, 0, 0.4); /* 그림자를 추가*/
+  }
+}
+
+//고객센터 서브메뉴
+.submenu {
+  display: none;
+  position: absolute;
+  z-index: 100;
+  right: 0; /* 부모 요소의 왼쪽에 맞추기 */
+  font-weight: 400;
+  background-color: #fff;
+  border-top: 2px solid #fe5c41;
+  border-bottom: 1px solid #ddd;
+  li {
+    display: inline-block;
+    width: 100%;
+    margin: 0 0 2px -15px;
+    a {
+      display: block;
+      width: 100%;
+      padding: 15px 30px;
+      font-size: 1.05rem;
+      font-weight: 400;
+      text-decoration: none; /* 밑줄을 제거*/
+      color: #999999; /* 링크 색상을 지정 */
+      &:hover {
+        background-color: #f0f0f0;
+      }
+    }
+  }
+}
+
+.header-nav {
+  margin-bottom: 20px;
+  background-color: #f2f3f8;
+  .m-navbar {
+    font-size: 1.1rem;
+    height: 45px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    margin-top: 40px;
+    background-color: #e2e2e2;
+    .m-nav-btn {
+      padding: 9px 0;
+      border-radius: 30px;
+      text-decoration: none;
+      color: #818181;
+      font-weight: 600;
+      width: 50%;
+      text-align: center;
+      &:hover,
+      &:focus,
+      &:active {
+        color: #fff;
+        background-color: #fe5c41;
+      }
+    }
+  }
+  .header-container {
+    .t-navbar {
+      font-size: 1.1rem;
+      width: 350px;
+      display: flex;
+      align-items: center;
+      border-radius: 30px;
+      background-color: #e2e2e2;
+      .t-nav-btn {
+        background-color: #e2e2e2;
+        border-radius: 30px;
+        padding: 9px 0;
+        text-decoration: none;
+        color: #818181;
+        font-weight: 600;
+        width: 50%;
+        text-align: center;
+        &:hover,
+        &:focus,
+        &:active {
+          color: #fff;
+          background-color: #fe5c41;
+        }
+      }
+    }
+    .header-offcanvvas {
+      background-color: #f2f3f8;
+      .btn-close {
+        padding: 30px 33px 20px;
+      }
+      .header-offcanvvas-body {
+        .header-navbar {
+          li {
+            color: rgba(0, 0, 0, 0.8);
+            // color: #1d1e25;
+            padding: 3px 15px 0;
+            font-size: 1.1rem;
+            font-weight: 700;
+            a {
+              &:hover {
+                color: #fe5c41;
+              }
+            }
+          }
+          li:last-child a:focus {
+            color: #fe5c41;
+          }
+          .nav-link {
+            color: rgba(0, 0, 0, 0.8);
+          }
+        }
+      }
+    }
+    .navbar-toggler {
+      border: 0px;
+    }
+  }
+}

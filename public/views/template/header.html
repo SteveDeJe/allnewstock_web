@@ -1,0 +1,131 @@
+<link rel="stylesheet" href="/styles/header.css" />
+<!-- <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@2.0/nanumsquare.css"> -->
+<nav class="navbar navbar-expand-xl header-nav">
+  <div class="container-fluid header-container">
+    <!-- 로고 이미지 -->
+    <a class="navbar-brand" href="#" onclick="setParamUrl('/index.html')">
+      <img src="/assets/common/logo_bi.svg" alt="로고" height="35" />
+    </a>
+    <div class="t-navbar">
+      <a class="t-nav-btn" href="#" onclick="setParamUrl('/views/about.html')"
+        >올뉴스탁론이란?</a
+      >
+      <a class="t-nav-btn" href="#" onclick="setParamUrl('/views/online.html')"
+        >온라인상담신청</a
+      >
+    </div>
+    <!-- 햄버거 버튼 -->
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="offcanvas"
+      data-bs-target="#offcanvasNavbar"
+      aria-controls="offcanvasNavbar"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <!-- 오프캔버스 메뉴 -->
+    <div
+      class="offcanvas offcanvas-end header-offcanvvas"
+      tabindex="-1"
+      id="offcanvasNavbar"
+      aria-labelledby="offcanvasNavbarLabel"
+    >
+      <!-- 오프캔버스 헤더 -->
+      <div class="offcanvas-header">
+        <!-- 오프캔버스 타이틀 -->
+        <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
+        <!-- 오프캔버스 닫기 버튼 -->
+        <button
+          type="button"
+          class="btn-close text-reset"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <!-- 오프캔버스 본문 -->
+      <div class="offcanvas-body header-offcanvvas-body">
+        <!-- 네비게이션 링크 목록 -->
+        <ul class="navbar-nav ms-auto header-navbar">
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="#"
+              onclick="setParamUrl('/views/about.html')"
+              >올뉴스탁론이란?</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="javascript:void(0)"
+              onclick="scrollToSection('.stock-loan', event)"
+              >상품안내</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="#"
+              onclick="setParamUrl('/views/shorts.html')"
+              >숏폼영상</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="#"
+              onclick="setParamUrl('/views/news.html')"
+              >스탁론뉴스</a
+            >
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="#">고객센터</a>
+            <div class="submenu m-0">
+              <ul>
+                <li>
+                  <a href="#" onclick="setParamUrl('/views/online.html')"
+                    >온라인 상담신청</a
+                  >
+                </li>
+                <li>
+                  <a href="#" onclick="setParamUrl('/views/policy.html')"
+                    >개인정보 처리방침</a
+                  >
+                </li>
+                <li>
+                  <a href="#" onclick="setParamUrl('/views/terms.html')"
+                    >홈페이지 이용약관</a
+                  >
+                </li>
+                <li>
+                  <a href="#" onclick="setParamUrl('/views/rules.html')"
+                    >계좌운용규칙</a
+                  >
+                </li>
+                <li>
+                  <a href="#" onclick="setParamUrl('/views/guide.html')"
+                    >이용가이드</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link" href="/views/online.html">고객센터</a>
+          </li> -->
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="m-navbar">
+    <a class="m-nav-btn" href="#" onclick="setParamUrl('/views/about.html')"
+      >올뉴스탁론이란?</a
+    >
+    <a class="m-nav-btn" href="#" onclick="setParamUrl('/views/online.html')"
+      >온라인상담신청</a
+    >
+  </div>
+</nav>

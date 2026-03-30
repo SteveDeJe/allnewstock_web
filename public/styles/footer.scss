@@ -1,0 +1,36 @@
+.footer-space {
+  padding: 0 15px 30px 15px;
+  font-size: 1.05rem;
+
+  .footer-colnum {
+    color: #ff5b40;
+    font-weight: 700;
+  }
+  .footer-btn-group {
+    margin: 80px 0 40px 0;
+    .footer-btn {
+      margin-right: 30px;
+      color: #828284;
+      text-decoration: none;
+      display: inline-block;
+      line-height: 2.5rem;
+      &:last-child {
+        color: #1d1e25;
+        font-weight: 700;
+      }
+      &:hover {
+        color: #ff5b42;
+      }
+    }
+  }
+  p {
+    color: #828284;
+    margin-bottom: 20px;
+    display: inline-block;
+    word-break: keep-all;
+    font-size: 1.05rem;
+    span {
+      display: inline-block;
+    }
+  }
+}

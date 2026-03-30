@@ -1,0 +1,6 @@
+module.exports = {
+    PORT: 8082,
+    wasUrl: 'http://221.168.39.96:9082/',
+    UploadAccessIPs: ['221.168.39.96']
+
+}

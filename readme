@@ -1,0 +1,29 @@
+* volta 설치 하여 Node , Npm 버전 자동관리 
+  https://docs.volta.sh/guide/getting-started 
+* volta install node 볼타로 노드설치
+* 실행
+   로컬 : npm run web-scss -env=local
+   개발 : npm run start -env=dev
+   운영 : npm run start -env=real
+
+* 소스 구조 
+  - config : nodejs 관련 설정 (was, log )
+  - log : nodejs 로그 
+  - node_module : nodejs 라이브러리 
+  - public : 웹페이지 Root 
+    -- assets : 이미지 폴더
+    -- node_module : 웹과 관련된 스크립트 라이브러링 (상위의 node_module 에서 필요한것들만 자동 복사)
+    -- styles : SCSS, CSS 폴더 (SCSS 를 기본으로 사용함. CSS는 자동생성)
+    -- script : 스크립트(js) 폴더 
+       --- component : 공통적으로 재사용 하는 스크립트 관리 
+       --- template : footer 및 header 같은 기본 베이스 
+    -- views : 웹소스(html) 폴더 
+       --- component : 공통적으로 재사용 하는 웹소스 관리 
+       --- template : footer 및 header 같은 기본 베이스 
+
+  ** public/script, public/view 폴더의 경우 html 과 js 는 항상 같은 구조에 각각의 파일을 위치   
+  ** SCSS를 기본으로 사용하고 CSS는 참고용으로만 사용한다. SCSS 수정시 CSS는 자동으로 빌드됨
+     CSS 별도로 수정 절대 금지 
+
+
+   

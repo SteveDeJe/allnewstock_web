@@ -1,0 +1,236 @@
+//테블릿
+@media (min-width: 768px) and (max-width: 1199px) {
+  .best-item-g > *:nth-child(7),
+  .best-item-g > *:nth-child(8) {
+    display: none;
+  }
+
+  .m-loan-card {
+    display: none;
+  }
+
+  //스탁론 상품안내
+  .stock-loan {
+    .stock-loan-inner {
+      .stock-loan-list {
+        .loan-card {
+          .card-inner {
+            &-flip-up {
+              &.flipped {
+                .card-front {
+                  transform: rotateX(90deg);
+                  z-index: 0;
+                }
+                .card-back {
+                  transform: rotateX(0deg);
+                  z-index: 100;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  //상담신청
+  .stock-counseling {
+    margin-top: 25px;
+    // 전화·카카오톡·채팅 상담
+    .speed-l {
+      font-size: 1rem;
+      .naver-item {
+        text-align: right;
+        border-radius: 10px;
+        padding: 27px 15px;
+        background-position: 15px 50%;
+        background-size: 45px;
+        span {
+          font-size: 1.2rem;
+        }
+      }
+      .kakao-item {
+        text-align: center;
+        margin-top: 20px;
+        border-radius: 10px;
+        padding: 73px 10px 15px;
+        background-position: 50% 25%;
+        background-size: 40px;
+      }
+      #channeltalk-button {
+        text-align: center;
+        margin-top: 20px;
+        border-radius: 10px;
+        padding: 73px 10px 15px;
+        background-position: 50% 25%;
+        background-size: 40px;
+      }
+    }
+    //Speed상담신청
+    .speed-m {
+      .speed-input {
+        padding: 15px 12px 0px 0;
+        h3 {
+          padding-left: 25px;
+        }
+        .speed-check-btn {
+          padding: 15px 5px 0 15px;
+          .speed-check {
+            margin-top: 10px;
+            label {
+              padding-right: 5px;
+            }
+            input {
+              vertical-align: middle;
+              width: 16px;
+              height: 16px;
+            }
+          }
+        }
+      }
+    }
+    // 가이드 바로가기
+    .speed-r {
+      .speed-r-container {
+        padding: 20px;
+        background-position: 85% 85%;
+        .speed-text {
+          line-height: initial;
+        }
+      }
+    }
+  }
+
+  //Best 스탁론
+  .stock-best {
+    .best-back {
+      .best-title {
+        margin: 30px 0 10px 20px;
+      }
+      .best-more-btn {
+        padding: 0 25px;
+        button {
+          margin-top: 30px;
+        }
+      }
+    }
+  }
+
+  // 스탁론 뉴스
+  .news-list:first-child(1),
+  .news-list:nth-child(3),
+  .news-list:nth-child(5),
+  .news-list:nth-child(7),
+  .news-list:nth-child(9) {
+    padding-right: 0px;
+  }
+  .news-list:nth-child(2),
+  .news-list:nth-child(4),
+  .news-list:nth-child(6),
+  .news-list:nth-child(8),
+  .news-list:nth-child(10) {
+    padding-left: 0px;
+  }
+
+  //<------------메인페이지
+
+  //서브페이지------------>
+  //공통
+  .sub-top {
+    height: 380px;
+    .sub-title {
+      width: 45%;
+      bottom: 50px;
+    }
+    .right-side {
+      left: 50%;
+    }
+  }
+  .sub-path {
+    display: none;
+  }
+
+  //서브페이지_메인타이틀_bg
+  .loan-img,
+  .shorts-img,
+  .guide-img {
+    background-position: right 7% bottom 35%;
+    background-size: 410px;
+  }
+  .online-img,
+  .news-img {
+    background-position: right 5% bottom 40%;
+    background-size: 450px;
+  }
+  #about-img {
+    background-position: center top;
+    background-size: cover;
+  }
+  .bg-grey {
+    max-height: 260px;
+  }
+
+  .sub-head {
+    margin-top: 50px;
+  }
+
+  //스탁론_상품조회
+  .loan-search {
+    margin-top: 50px;
+  }
+  .loan-list {
+    margin-top: 50px;
+    h2 {
+      display: none;
+    }
+    .list-box {
+      .loan-g {
+        ul {
+          display: table-row;
+          &:last-child li {
+            border-bottom: 0px;
+          }
+        }
+        li {
+          display: table-cell;
+          text-align: center;
+          width: 14vw;
+          width: 14dvw;
+          padding: 25px 0;
+          border-bottom: 1px solid #e2e2e2;
+          &:first-child {
+            width: 10vw;
+            width: 10dvw;
+          }
+          &:nth-child(2) {
+            width: 20vw;
+            width: 20dvw;
+            img {
+              width: 50px;
+            }
+          }
+          img {
+            width: 25px;
+            padding: 0 3px 5px 0;
+          }
+        }
+      }
+    }
+  }
+
+  //숏폼영상
+  .shorts-search {
+    margin-top: 50px;
+  }
+
+  //about
+  .for-txt {
+    padding-right: 30px;
+  }
+
+  //동의체크
+  //전체동의
+  .all-check {
+    margin-top: 30px;
+  }
+}

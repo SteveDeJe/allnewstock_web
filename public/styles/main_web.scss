@@ -1,0 +1,203 @@
+//web
+@media (min-width: 1200px) {
+  //상품정보 보여주기
+  .best-item-g > *:nth-child(7),
+  .best-item-g > *:nth-child(8) {
+    display: block;
+  }
+
+  .m-loan-card {
+    display: none;
+  }
+
+  //상담신청
+  .stock-counseling {
+    margin-top: 25px;
+    // 전화·카카오톡·채팅 상담
+    .speed-l {
+      font-size: 1rem;
+      .naver-item {
+        text-align: right;
+        border-radius: 10px;
+        padding: 27px 30px;
+        background-position: 30px 50%;
+        background-size: 50px;
+        span {
+          font-size: 1.4rem;
+        }
+      }
+      .kakao-item {
+        text-align: center;
+        margin-top: 20px;
+        border-radius: 10px;
+        padding: 73px 10px 15px;
+        background-position: 50% 25%;
+        background-size: 45px;
+      }
+      #channeltalk-button {
+        text-align: center;
+        margin-top: 20px;
+        border-radius: 10px;
+        padding: 73px 10px 15px;
+        background-position: 50% 25%;
+        background-size: 45px;
+      }
+    }
+    //Speed상담신청
+    .speed-m {
+      .speed-input {
+        padding: 20px 12px 20px 0;
+        h3 {
+          padding-left: 25px;
+        }
+        .speed-check-btn {
+          padding: 15px 5px 0 15px;
+        }
+      }
+    }
+    // 가이드 바로가기
+    .speed-r {
+      .speed-r-container {
+        padding: 30px 25px;
+        background-position: 85% 80%;
+      }
+    }
+  }
+
+  //Best 스탁론
+  .stock-best {
+    .best-back {
+      .best-title {
+        margin: 30px 0 10px 20px;
+      }
+      .best-more-btn {
+        padding: 0 25px;
+        button {
+          margin-top: 30px;
+        }
+      }
+    }
+  }
+
+  // 스탁론 뉴스
+  .news-list:first-child(odd) {
+    padding-right: 30px;
+  }
+  .news-list:nth-child(even) {
+    padding-left: 30px;
+  }
+
+  //서브페이지>
+  //공통
+  .sub-top {
+    height: 380px;
+    .sub-title {
+      width: 45%;
+      bottom: 60px;
+    }
+    .right-side {
+      left: 55%;
+    }
+  }
+
+  //서브페이지_메인타이틀_bg
+  .loan-img,
+  .shorts-img,
+  .guide-img {
+    background-position: right 7% bottom 40%;
+    background-size: 450px;
+  }
+  .online-img {
+    background-position: right 5% bottom 45%;
+    background-size: 500px;
+  }
+  .news-img {
+    background-position: right 7% bottom 50%;
+    background-size: 450px;
+  }
+  #about-img {
+    background-position: center top;
+    background-size: cover;
+  }
+  .bg-grey {
+    max-height: 300px;
+  }
+
+  .sub-head {
+    margin-top: 110px;
+  }
+
+  //스탁론_상품조회
+  .loan-search {
+    margin-top: 100px;
+  }
+  .loan-list {
+    margin-top: 50px;
+    h2 {
+      display: none;
+    }
+    .list-box {
+      .loan-g {
+        ul {
+          display: table-row;
+          &:last-child li {
+            border-bottom: 0px;
+          }
+        }
+        li {
+          display: table-cell;
+          text-align: center;
+          width: 14vw;
+          width: 14dvw;
+          padding: 25px 0;
+          border-bottom: 1px solid #e2e2e2;
+          &:first-child {
+            width: 10vw;
+            width: 10dvw;
+          }
+          &:nth-child(2) {
+            width: 20vw;
+            width: 20dvw;
+            img {
+              width: 50px;
+            }
+          }
+          img {
+            width: 25px;
+            padding: 0 3px 5px 0;
+          }
+        }
+      }
+    }
+  }
+
+  //숏폼영상
+  .shorts-search {
+    margin-top: 100px;
+  }
+
+  //스탁론뉴스
+  .sub-news {
+    .news-list {
+      &:nth-child(2) {
+        border: 0;
+      }
+    }
+  }
+
+  //약관
+  .days {
+    margin-top: 150px;
+  }
+
+  //온라인상담신청
+  .essential-box {
+    margin-top: 150px;
+  }
+
+  //동의체크
+  //전체동의
+  .all-check {
+    margin-top: 50px;
+  }
+}

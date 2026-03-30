@@ -1,0 +1,115 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 30
+    },
+    "auditLog": "log/.0942ed2ec5a1167b4bfd75da44c01cc58dcb6bcf-audit.json",
+    "files": [
+        {
+            "date": 1733985409069,
+            "name": "log/console.log.2024-12-12",
+            "hash": "025f4bb4bb03a6a33eb7d765e143b541033e650e1b14aad5885ea0d17c1ba0b9"
+        },
+        {
+            "date": 1734391630343,
+            "name": "log/console.log.2024-12-17",
+            "hash": "615817799c2d94efcb9cd2c613e9e7ea4e94b555c3f21eed1e1416e05e8e9c37"
+        },
+        {
+            "date": 1734485246689,
+            "name": "log/console.log.2024-12-18",
+            "hash": "5226b7eb2602bc3e63a2be72f68da6c3b64a8c06d2bd759d2e7aae64aa67e594"
+        },
+        {
+            "date": 1752359758922,
+            "name": "log/console.log.2025-07-13",
+            "hash": "bec4cd35ed15139937df7f5cb79362660a8a17696cc69448eef8cf3ea0b38873"
+        },
+        {
+            "date": 1753270172227,
+            "name": "log/console.log.2025-07-23",
+            "hash": "4d870e175ca79e754f3f0521af95acd6160900c6879752b58651972ba1030afe"
+        },
+        {
+            "date": 1755967266804,
+            "name": "log/console.log.2025-08-24",
+            "hash": "a57c79e57e23b11d1e80d53d1f685de352e7bb1350e99941337a4fedb6e5657e"
+        },
+        {
+            "date": 1757873833879,
+            "name": "log/console.log.2025-09-15",
+            "hash": "45875451a4c5f1913a82e054015c2a0bcd9245051ec2041d57d6dc9bb5b6034b"
+        },
+        {
+            "date": 1762575935031,
+            "name": "log/console.log.2025-11-08",
+            "hash": "88b341e9333a45da7f392480ae1f6deff0689b2d9d1666bb217433bf0a53b85c"
+        },
+        {
+            "date": 1763127696416,
+            "name": "log/console.log.2025-11-14",
+            "hash": "2c8cde8ff9da9cc1945b414651ca3206d814aa48460f1c96db7b2a3bb3f3f87c"
+        },
+        {
+            "date": 1765835274255,
+            "name": "log/console.log.2025-12-16",
+            "hash": "3d90a077959161505bd2bc67679900b43d5e447172b53a8ac319cea5d7361e07"
+        },
+        {
+            "date": 1766003027963,
+            "name": "log/console.log.2025-12-18",
+            "hash": "ec82a7d56795ec1c7e500e1a533103772a3d593d27f9e6bdb0822cb5d1f4675e"
+        },
+        {
+            "date": 1766527777492,
+            "name": "log/console.log.2025-12-24",
+            "hash": "71c1d800e84e206119b1336cd515a29ae350048053da891ade0d36db1c5540c6"
+        },
+        {
+            "date": 1768092577476,
+            "name": "log/console.log.2026-01-11",
+            "hash": "d70110661a003bf3aa1857a21139a2ea34a4f9fb0b5168ccb81e24e3084d5984"
+        },
+        {
+            "date": 1769553569624,
+            "name": "log/console.log.2026-01-28",
+            "hash": "68f0bf63a0c09431436a7b2d16d587bcdfe4d97c8783f806abb44442fbebb045"
+        },
+        {
+            "date": 1769833798472,
+            "name": "log/console.log.2026-01-31",
+            "hash": "405b89f1ee1404263a7d33149712f53d9d7da7a7b6f9a723432e655bb844b5a7"
+        },
+        {
+            "date": 1770511779062,
+            "name": "log/console.log.2026-02-08",
+            "hash": "e9e3899846795d468053b8afabba6cfdf46b2794e6e6ce948caa1a64b9b25c36"
+        },
+        {
+            "date": 1772615687350,
+            "name": "log/console.log.2026-03-04",
+            "hash": "1405fccd0e03d62220c46905c2dc96f695f78e0581f563e438e3514dc42ff63f"
+        },
+        {
+            "date": 1772815367214,
+            "name": "log/console.log.2026-03-07",
+            "hash": "87247c04c1cddd8cc99eeb2b4df98ccb87c6b49d93a19514a91b804216c772ab"
+        },
+        {
+            "date": 1773211666024,
+            "name": "log/console.log.2026-03-11",
+            "hash": "87fa359211e3c94c9a23fb96de5a0a2e9d24ab2cce3db8d70a999463b26c1898"
+        },
+        {
+            "date": 1773300912279,
+            "name": "log/console.log.2026-03-12",
+            "hash": "8653a7a8b0b67280d717f233d98769680579c80dff0b302bb1cf516c3ac00d56"
+        },
+        {
+            "date": 1774525917512,
+            "name": "log/console.log.2026-03-26",
+            "hash": "14e5337bfc94845c3fad5a29d23decce1d3e8466ace952a5bdfa7f8beff43d55"
+        }
+    ],
+    "hashType": "sha256"
+}

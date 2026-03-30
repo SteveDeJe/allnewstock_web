@@ -1,0 +1,44 @@
+<div class="col-12 loan-card">
+  <div class="card-inner card-inner-flip-up">
+    <div class="card-front">
+      <div class="card_top-border"></div>
+      <div class="card_info">
+        <div class="info-top">
+          <span class="number">${idx}<img src="" class="state" /></span>
+          <img src="${prodImgUrl}" class="illust" />
+          <div class="ex-mark">
+            <img src="assets/loan/icon_exclamation-mark.svg" />
+          </div>
+          <p class="bubble">${prodRefText}</p>
+        </div>
+        <div class="info-bottom">
+          <ul class="loan-info">
+            <li class="sub-title">${prodText1}</li>
+            <li class="main-title">${prodText2}</li>
+            <li class="sub-copy">${prodText3}</li>
+          </ul>
+          <img src="assets/loan/icon_arrow-down.svg" class="loan-arrow" />
+        </div>
+      </div>
+    </div>
+    <div class="card-back">
+      <div class="card_info">
+        <div class="info-top">
+          <span class="number">${idx}</span>
+          <img src="assets/loan/icon_arrow-up.svg" class="loan-arrow" />
+        </div>
+        <div class="info-bottom">
+          <div class="loan-detail">
+            <ul>
+              <li class="bank">여신사 : ${stkCodeNm}</li>
+              <li class="bank-rate">연금리 : ${prodRate}</li>
+              <li class="loss-cut">로스컷 : ${prodLosscut}</li>
+              <li class="portfolio">집중률: ${prodFocus}</li>
+              <li class="loan-term">대출기간 : ${loanMonth}</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
