@@ -418,7 +418,7 @@ input[type="number"]::-webkit-inner-spin-button {
   line-height: 3rem;
   text-align: left; }
 
-.stock-counseling .speed-m .speed-input h1 {
+.stock-counseling .speed-m .speed-input h2 {
   font-size: 1.4rem;
   font-weight: 700;
   padding-left: 25px; }
@@ -1086,7 +1086,7 @@ input[type="number"]::-webkit-inner-spin-button {
   word-break: keep-all;
   padding: 0 5%; }
 
-.sub-top .sub-title h1 {
+.sub-top .sub-title h4 {
   display: block;
   font-size: 1.05rem;
   font-weight: 800;
@@ -1132,7 +1132,7 @@ input[type="number"]::-webkit-inner-spin-button {
 .sub-head {
   padding-bottom: 30px; }
 
-.sub-head h1 {
+.sub-head h3 {
   display: block;
   font-size: 1.05rem;
   font-weight: 700;
@@ -1202,7 +1202,7 @@ input[type="number"]::-webkit-inner-spin-button {
 .loan-search {
   color: #1d1e25; }
 
-.loan-search h1 {
+.loan-search h3 {
   font-size: 1.05rem;
   font-weight: 700;
   color: #fd5c41;
@@ -1257,7 +1257,7 @@ input[type="number"]::-webkit-inner-spin-button {
   font-weight: 700;
   background-color: #fe5c41; }
 
-.loan-list h1 {
+.loan-list h3 {
   font-size: 1.05rem;
   font-weight: 700;
   color: #fd5c41;
@@ -1465,7 +1465,7 @@ input[type="number"]::-webkit-inner-spin-button {
   padding: 30px 25px;
   line-height: 1.8rem; }
 
-.txt-box h1 {
+.txt-box h3 {
   color: #1d1e25;
   font-size: 1.15rem;
   font-weight: 800;
@@ -1513,7 +1513,7 @@ input[type="number"]::-webkit-inner-spin-button {
   padding: 30px 25px;
   font-size: 1.1rem; }
 
-.essential-box h1 {
+.essential-box h3 {
   font-size: 1.1rem;
   font-weight: 700;
   color: #fd5c41; }
@@ -1733,7 +1733,7 @@ p {
   position: relative;
   cursor: pointer; }
 
-.que h1 {
+.que h3 {
   font-size: 1.1rem;
   font-weight: 700;
   color: #fd5c41; }

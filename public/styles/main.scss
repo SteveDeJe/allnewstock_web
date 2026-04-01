@@ -497,7 +497,7 @@ input[type="number"]::-webkit-inner-spin-button {
       border-radius: $main-border-radius;
       line-height: 3rem;
       text-align: left;
-      h1 {
+      h2 {
         font-size: 1.4rem;
         font-weight: 700;
         padding-left: 25px;
@@ -1244,7 +1244,7 @@ input[type="number"]::-webkit-inner-spin-button {
     position: absolute;
     word-break: keep-all;
     padding: 0 5%;
-    h1 {
+    h4 {
       display: block;
       font-size: 1.05rem;
       font-weight: 800;
@@ -1292,7 +1292,7 @@ input[type="number"]::-webkit-inner-spin-button {
 
 .sub-head {
   padding-bottom: 30px;
-  h1 {
+  h3 {
     display: block;
     font-size: 1.05rem;
     font-weight: 700;
@@ -1369,7 +1369,7 @@ input[type="number"]::-webkit-inner-spin-button {
 //스탁론_상품조회
 .loan-search {
   color: #1d1e25;
-  h1 {
+  h3 {
     font-size: 1.05rem;
     font-weight: 700;
     color: #fd5c41;
@@ -1435,7 +1435,7 @@ input[type="number"]::-webkit-inner-spin-button {
 }
 //상품조회-상품리스트
 .loan-list {
-  h1 {
+  h3 {
     font-size: 1.05rem;
     font-weight: 700;
     color: #fd5c41;
@@ -1660,7 +1660,7 @@ input[type="number"]::-webkit-inner-spin-button {
   background-color: #fff;
   padding: 30px 25px;
   line-height: 1.8rem;
-  h1 {
+  h3 {
     color: #1d1e25;
     font-size: 1.15rem;
     font-weight: 800;
@@ -1711,7 +1711,7 @@ input[type="number"]::-webkit-inner-spin-button {
   background-color: #fff;
   padding: 30px 25px;
   font-size: 1.1rem;
-  h1 {
+  h3 {
     font-size: 1.1rem;
     font-weight: 700;
     color: #fd5c41;
@@ -1945,7 +1945,7 @@ p {
 .que {
   position: relative;
   cursor: pointer;
-  h1 {
+  h3 {
     font-size: 1.1rem;
     font-weight: 700;
     color: #fd5c41;

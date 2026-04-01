@@ -109,7 +109,7 @@ function getRulesConts(termsType){
                 else if(termsType === 'T0003') targetIdx = '3';
 
                 if(targetIdx !== ''){
-                    $(`.online-titl-g${targetIdx}`).empty().append($('<h1>').html(terms.termsTitl));
+                    $(`.online-titl-g${targetIdx}`).empty().append($('<h3>').html(terms.termsTitl));
                     $(`.online-sub-titl-g${targetIdx}`).empty().append($('<p>').html(terms.termsSubTitl));
                     $(`.online-conts-g${targetIdx}`).empty().append($('<div>').html(terms.termsConts));
                     $(`.online-marker-titl-g${targetIdx}`).empty().append($('<span>').html(terms.termsMarkerTitl));

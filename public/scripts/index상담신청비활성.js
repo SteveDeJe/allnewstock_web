@@ -648,9 +648,9 @@ function getRulesConts(termsType){
                   switch(termsType){
                     case 'T0001':
                       $(".online-titl-g1").children().remove();
-                      $(".online-titl-g1").append($('<h1>').html(terms.termsTitl));
+                      $(".online-titl-g1").append($('<h3>').html(terms.termsTitl));
                       $(".online-titl").children().remove();
-                      $(".online-titl").append($('<h1>').html(terms.termsTitl));
+                      $(".online-titl").append($('<h3>').html(terms.termsTitl));
                       $(".online-sub-titl-g1").children().remove();
                       $(".online-sub-titl-g1").append($('<p>').html(terms.termsSubTitl));
                       $(".online-conts").children().remove();
@@ -660,9 +660,9 @@ function getRulesConts(termsType){
                       break;
                     case 'T0002':
                       $(".online-titl-g2").children().remove();
-                      $(".online-titl-g2").append($('<h1>').html(terms.termsTitl));
+                      $(".online-titl-g2").append($('<h3>').html(terms.termsTitl));
                       $(".online-titl").children().remove();
-                      $(".online-titl").append($('<h1>').html(terms.termsTitl));
+                      $(".online-titl").append($('<h3>').html(terms.termsTitl));
                       $(".online-sub-titl-g2").children().remove();
                       $(".online-sub-titl-g2").append($('<p>').html(terms.termsSubTitl));
                       $(".online-conts").children().remove();
@@ -672,9 +672,9 @@ function getRulesConts(termsType){
                       break;
                     case 'T0003':
                       $(".online-titl-g3").children().remove();
-                      $(".online-titl-g3").append($('<h1>').html(terms.termsTitl));
+                      $(".online-titl-g3").append($('<h3>').html(terms.termsTitl));
                       $(".online-titl").children().remove();
-                      $(".online-titl").append($('<h1>').html(terms.termsTitl));
+                      $(".online-titl").append($('<h3>').html(terms.termsTitl));
                       $(".online-sub-titl-g3").children().remove();
                       $(".online-sub-titl-g3").append($('<p>').html(terms.termsSubTitl));
                       $(".online-conts").children().remove();
