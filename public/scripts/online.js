@@ -179,6 +179,10 @@ $(document).ready(function () {
   //핸드폰번호 8개로 한정
   phonNum8('second-phon');
   phonNum8('loan-want');
+  //이름 한글만 받기
+  onlyKorean('online-name');
+  //이메일 영문, 숫자, 특수문자만 받기
+  onlyEmail('user-email');
   //체크박스
   allCheck();
   //신청버튼

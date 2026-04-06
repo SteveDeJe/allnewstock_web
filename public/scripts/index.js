@@ -546,6 +546,7 @@ function clickContactUs(){
         });
     });
   }
+
 //이름, 전환번호 체크
 function checkModal() {
     let usernm = $('.online-name').val();
@@ -560,6 +561,7 @@ function checkModal() {
       }
       return true;
   }
+
   //모달 실행
   function showModal(){
     $('.contact-us-btn2').on('click', function(event) {
@@ -725,6 +727,8 @@ $(document).ready(function () {
     initSwiper();
     //전화번호 8개만 받기
     phonNum8('second-phon');
+    //이름 한글만 받기
+    onlyKorean('online-name');
     //개인정보처리 팝업
     popupRules();
     //개인정보 처리 체크박스
