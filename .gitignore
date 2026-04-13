@@ -1,5 +1,9 @@
+# Dependency directorie
 node_modules/
-.DS_Store
 
+# logs란 이름의 폴더와 그 내용들
 log/
-*.log
+
+# Ignore environment variable files
+.log
+.ds_store
