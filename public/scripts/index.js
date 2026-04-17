@@ -429,11 +429,11 @@ function fnGetProdInfoNew() {
                     }
 
                     if (prodData.prodRank === 'R0001') {
-                        cardHtml.find('.state').attr("src", "assets/loan/icon_rank-up.svg");
+                        cardHtml.find('.state').attr("src", "assets/loan/icon_rank-up.svg").attr("alt", "순위 상승");
                     } else if (prodData.prodRank === 'R0002') {
-                        cardHtml.find('.state').attr("src", "assets/loan/icon_rank-down.svg");
+                        cardHtml.find('.state').attr("src", "assets/loan/icon_rank-down.svg").attr("alt", "순위 하락");
                     } else {
-                        cardHtml.find('.state').attr("src", "assets/loan/icon_no-change.svg");
+                        cardHtml.find('.state').attr("src", "assets/loan/icon_no-change.svg").attr("alt", "순위 변동 없음");
                     }
 
                     if (prodData.stkCodeYn === 'N') {
@@ -462,11 +462,11 @@ function fnGetProdInfoNew() {
                     }
 
                     if (prodData.prodRank === 'R0001') {
-                        cardHtml.find('.state').attr("src", "assets/loan/icon_rank-up.svg");
+                        cardHtml.find('.state').attr("src", "assets/loan/icon_rank-up.svg").attr("alt", "순위 상승");
                     } else if (prodData.prodRank === 'R0002') {
-                        cardHtml.find('.state').attr("src", "assets/loan/icon_rank-down.svg");
+                        cardHtml.find('.state').attr("src", "assets/loan/icon_rank-down.svg").attr("alt", "순위 하락");
                     } else {
-                        cardHtml.find('.state').attr("src", "assets/loan/icon_no-change.svg");
+                        cardHtml.find('.state').attr("src", "assets/loan/icon_no-change.svg").attr("alt", "순위 변동 없음");
                     }
 
                     if (prodData.stkCodeYn === 'N') {
