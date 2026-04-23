@@ -721,7 +721,7 @@ $(document).ready(function () {
     //베너 데이터 불러오기
     fnGetBnrInfo();
     //상품정보 데이터 불러오기
-    fnGetProdInfo();
+    // fnGetProdInfo(); // 삭제된 구버전 컴포넌트 호출 중단
     fnGetProdInfoNew();
     //사이즈별 엘리먼츠on/off
     initSwiper();
