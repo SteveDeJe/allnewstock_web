@@ -1,9 +1,36 @@
-# Dependency directorie
+# 의존성
 node_modules/
+public/node_modules/
 
-# logs란 이름의 폴더와 그 내용들
+# 로그
 log/
+*.log
+npm-debug.log*
 
-# Ignore environment variable files
-.log
-.ds_store
+# 활성 환경 설정 (copy-config 로 생성)
+config/config.js
+
+# 환경변수
+.env
+.env.local
+.env.*.local
+
+# 업로드 파일
+public/upload/
+
+# 백업 파일 (날짜/old 접미사)
+*_old.*
+*.html.20*
+*.js.20*
+*_25[0-9][0-9][0-9][0-9]*
+*_26[0-9][0-9][0-9][0-9]*
+
+# OS / 에디터
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Claude Code 설정 (로컬 전용, git 제외)
+CLAUDE.md
+.claude/
