@@ -32,10 +32,10 @@
     <loc>https://www.allnewstockloan.co.kr/views/rules.html</loc>
     <priority>0.5</priority>
   </url>
-  <url>
+  <!-- <url>
     <loc>https://www.allnewstockloan.co.kr/views/shorts.html</loc>
     <priority>0.8</priority>
-  </url>
+  </url> -->
   <url>
     <loc>https://www.allnewstockloan.co.kr/views/terms.html</loc>
     <priority>0.5</priority>
