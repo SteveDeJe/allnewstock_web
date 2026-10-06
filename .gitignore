@@ -24,6 +24,9 @@ public/upload/
 *.js.20*
 *_25[0-9][0-9][0-9][0-9]*
 *_26[0-9][0-9][0-9][0-9]*
+# 운영 서버 조치 시 남긴 백업 사본 (예: app.js.bak.20261002, config/config.js.real.bak.20261002)
+*.bak.20*
+config/*.bak.*
 
 # OS / 에디터
 .DS_Store
