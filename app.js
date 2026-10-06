@@ -29,6 +29,9 @@ const { createProxyMiddleware, fixRequestBody } = require('http-proxy-middleware
 app.use('/api', createProxyMiddleware({
     target: appConfig.wasUrl,
     changeOrigin: true,
+    // WAS가 응답을 끝내지 않는 경우 Apache 전역 Timeout(300초)까지 요청이 붙잡혀 사용자가 5분을 기다리게 된다.
+    // 프록시 쪽에서 먼저 끊어 아래 error 핸들러의 502로 떨어뜨린다.
+    proxyTimeout: 20000,
     pathRewrite: {
         '^/api': '',
     },
@@ -43,6 +46,13 @@ app.use('/api', createProxyMiddleware({
         },
         error: (err, req, res) => {
             logger.error(err);
+            // 응답을 보내지 않으면 proxyTimeout 이후에도 클라이언트가 계속 대기하게 된다.
+            if (res && !res.headersSent) {
+                res.writeHead(502, { 'Content-Type': 'application/json' });
+            }
+            if (res && !res.writableEnded) {
+                res.end(JSON.stringify({ responseVO: { header: { status: 502 } }, error: 'Bad Gateway' }));
+            }
         }
 
     }
